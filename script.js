@@ -50,6 +50,27 @@ window.onLoad = assignImage();
 
 
 
+//fun fact modal
+
+let fact = document.getElementById('fact')
+
+setTimeout(function(){
+    if (fact.style.display === "none" || fact.style.display === "") {
+        fact.style.display = "block";
+    }
+}, 3000)
+
+
+let leave = document.getElementById('leave')
+
+leave.addEventListener("click", done)
+
+function done(){
+    fact.style.display = "none";
+}
+
+
+
 // contact modal
 
 let button = document.getElementById('button')
@@ -58,13 +79,11 @@ let contact = document.getElementById('contact')
 
 button.addEventListener("click", enter)
 
-
 function enter() {
     if (contact.style.display === "none" || contact.style.display === "") {
         contact.style.display = "block";
     }
 }
-
 
 let close = document.getElementById('close')
 
