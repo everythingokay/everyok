@@ -1,7 +1,7 @@
 * {}
 
 #wrapper {
-    width: 1360px;
+    width: 1200px;
     height: auto;
     overflow: auto;
     border: 2px solid #ffffff;
@@ -16,11 +16,11 @@
     letter-spacing: 6px;
     color: #000000;
     margin-top: 25px;
-    margin-left: 25%;
+    margin-left: 20%;
 }
 
 #title:hover{
-    background-color: #ffb3ba;
+    background-color: #cceeff;
 }
 
 #column1 {
@@ -46,6 +46,10 @@
     margin: 210px auto auto 20px;
 }
 
+#left:hover {
+    background-color: #ccccff;
+}
+
 #right {
     font-family: Helvetica, sans-serif;
     font-weight: 500;
@@ -55,13 +59,17 @@
     margin: 210px auto auto auto;
 }
 
+#right:hover {
+    background-color: #ccccff;
+}
+
 #column2 {
-    width: 40%;
+    width: 30%;
     height: auto;
     float: left;
     border: 2px solid #ffffff;
     background-color: #ffffff;
-    margin: 70px auto auto auto;
+    margin: 65px auto auto 25px;
 }
 
 #greeting {
@@ -153,7 +161,7 @@
 #hand {
     display: inline-block;
     height: 50%;
-    margin-top: -10%;
+    margin-top: -9%;
     margin-left: 68%;
 }
 
