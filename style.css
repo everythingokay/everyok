@@ -1,7 +1,7 @@
 * {}
 
 #wrapper {
-    width: 100%;
+    width: 1360px;
     height: auto;
     overflow: auto;
     border: 2px solid #ffffff;
@@ -9,18 +9,22 @@
 }
 
 #title {
-    width: 100%;
-    margin: 25px auto auto 25px;
+    display: inline-block;
     font-family: Helvetica, sans-serif;
     font-weight: 600;
     font-size: 65px;
     letter-spacing: 6px;
     color: #000000;
-    text-align: center;
+    margin-top: 25px;
+    margin-left: 25%;
+}
+
+#title:hover{
+    background-color: #ffb3ba;
 }
 
 #column1 {
-    width: 59%;
+    width: 800px;
     height: auto;
     float: left;
     border: 2px solid #ffffff;
@@ -28,9 +32,9 @@
 }
 
 #box {
-    align: center;
-    margin: auto auto auto 5px;
     width: 80%;
+    float: left;
+    margin: auto 5px auto 5px;
 }
 
 #left {
@@ -39,7 +43,7 @@
     font-size: 60px;
     color: #000000;
     float: left;
-    margin:210px auto auto 20px;
+    margin: 210px auto auto 20px;
 }
 
 #right {
@@ -47,20 +51,21 @@
     font-weight: 500;
     font-size: 60px;
     color: #000000;
-    float:right;
-    margin:210px 30px auto auto;
+    float: left;
+    margin:210px auto auto auto;
 }
 
 #column2 {
-    width: 39%;
+    width: 40%;
     height: auto;
     float: left;
     border: 2px solid #ffffff;
     background-color: #ffffff;
-    margin: 70px auto auto 20px;
+    margin: 70px auto auto auto;
 }
 
 #greeting {
+    width: 100%;
     font-family: Helvetica, sans-serif;
     font-weight: 500;
     font-size: 45px;
@@ -110,18 +115,6 @@
     color: #000000;
 }
 
-#contact {
-    width: 600px;
-    height: 300px;
-    border: 3px dotted #000000;
-    background-color: #ffffff;
-    position: fixed;
-    z-index: 1;
-    left: 500px;
-    top: 300px;
-    display: none;
-}
-
 #button {
     font-family: Helvetica, sans-serif;
     font-weight: 600;
@@ -134,12 +127,28 @@
     background-color: #baffc9;
   }
 
+#contact {
+    width: 450px;
+    height: 300px;
+    border: 4px dashed #000000;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
 #close {
     font-family: Helvetica, sans-serif;
     font-weight: 500;
     font-size: 45px;
     color: #000000;
-    margin: auto auto auto 465px;
+    position: absolute;
+    left: 91%;
+    top: 1%;
 }
 
 #email {
@@ -149,7 +158,10 @@
     color: #000000;    
 }
 
-#image1 {
-    height: 100%;
-    float: left;
+#form {
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    margin: auto auto auto 20px;    
 }

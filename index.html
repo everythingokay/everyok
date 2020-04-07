@@ -10,7 +10,7 @@
     <body>
 
         <div id="wrapper">
-            <div id="title">⦚EVERYTHING OKAY⫎</div>
+            <span id="title">⦚EVERYTHING OKAY⫎</span>
             <br><br><br><br>
             <div id="column1">
                 <div id="left">⦾</div>
@@ -38,7 +38,15 @@
 
                 <div id="contact">
                     <span id="close">⨯</span><br><br>
-                    <a href="mailto:alison.feldish@gmail.com" id="email">alison.feldish @ gmail.com</a> 
+                    <form action="mailto:alison.feldish@gmail.com" method="post" enctype="text/plain" id="form">
+                        Name:<br>
+                        <input type="text" name="NAME"><br><br>
+                        E-mail:<br>
+                        <input type="text" name="EMAIL"><br><br>
+                        Comment:<br>
+                        <input type="text" name="MESSAGE" size="50"><br><br>
+                        <input type="submit" value="Send">
+                    </form>
                 </div>
 
             </div>
