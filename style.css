@@ -44,10 +44,24 @@
     color: #000000;
     float: left;
     margin: 210px auto auto 20px;
+    display: inline-block; 
+    filter: progid:DXImageTransform.Microsoft.BasicImage(mirror=1);
+    -moz-transform: scale(-1,1);
+    -ms-transform: scale(-1,1);
+    -o-transform: scale(-1,1);
+    -webkit-transform: scale(-1,1);
+    transform: scale(-1,1);
 }
 
 #left:hover {
     background-color: #ccccff;
+    display: inline-block; 
+    filter: progid:DXImageTransform.Microsoft.BasicImage(mirror=1);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: scale(-1,1);
+    -o-transform: scale(-1,1);
+    -webkit-transform: scale(-1,1);
+    transform: scale(-1,1);
 }
 
 #right {
@@ -123,7 +137,7 @@
     color: #000000;
 }
 
-#button {
+#contact {
     font-family: Helvetica, sans-serif;
     font-weight: 600;
     font-size: 30px;
@@ -131,9 +145,13 @@
     color: #000000;
 }
 
-#button:hover {
+#contact:hover {
     background-color: #baffc9;
-  }
+}
+
+#mail {
+    display: none;
+}
 
 #fact {
     width: 600px;
@@ -175,19 +193,6 @@
     top: 1%;
 }
 
-#contact {
-    width: 450px;
-    height: 300px;
-    border: 4px dashed #000000;
-    background-color: #ffffff;
-    z-index: 1;
-    position: absolute;
-    left: 50%;
-    top: 65%;
-    transform: translate(-50%, -50%);
-    display: none;
-}
-
 #close {
     font-family: Helvetica, sans-serif;
     font-weight: 500;
@@ -198,12 +203,12 @@
     top: 1%;
 }
 
-#email {
+/* #email {
     font-family: Helvetica, sans-serif;
     font-weight: 500;
     font-size: 30px;
     color: #000000;    
-}
+} */
 
 #form {
     font-family: Helvetica, sans-serif;

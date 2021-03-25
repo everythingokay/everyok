@@ -52,20 +52,23 @@ window.onLoad = assignImage();
 
 //fun fact modal
 
+let title = document.getElementById('title');
 let fact = document.getElementById('fact')
 
-setTimeout(function(){
+title.addEventListener("click", funFact)
+
+function funFact() {
     if (fact.style.display === "none" || fact.style.display === "") {
         fact.style.display = "block";
     }
-}, 3000)
+}
 
 
 let leave = document.getElementById('leave')
 
 leave.addEventListener("click", done)
 
-function done(){
+function done() {
     fact.style.display = "none";
 }
 
@@ -73,22 +76,41 @@ function done(){
 
 // contact modal
 
-let button = document.getElementById('button')
 let contact = document.getElementById('contact')
+let mail = document.getElementById('mail')
+contact.innerHTML = "here";
 
+contact.addEventListener("click", email)
 
-button.addEventListener("click", enter)
-
-function enter() {
-    if (contact.style.display === "none" || contact.style.display === "") {
-        contact.style.display = "block";
+function email() {
+    if (mail.style.display === "none" || mail.style.display === "") {
+        mail.style.display = "inline";
+        contact.innerHTML = "alison.feldish @gmail.com"
+    }
+    else {
+        mail.style.display = "inline";
+        mail.style.display = "none";
+        contact.innerHTML = "here";
     }
 }
+
+    // button.addEventListener("click", abra)
+    // button.innerHTML = "CLICK"
+
+
+    // function abra() {
+    //     if (box.style.display === "none") {
+    //         box.style.display = "block";
+    //         button.innerHTML = "CLICKED";
+    //     }
+
+
+    //  }
 
 let close = document.getElementById('close')
 
 close.addEventListener("click", exit)
 
-function exit(){
+function exit() {
     contact.style.display = "none";
 }
