@@ -85,12 +85,14 @@ contact.addEventListener("click", email)
 function email() {
     if (mail.style.display === "none" || mail.style.display === "") {
         mail.style.display = "inline";
-        contact.innerHTML = "alison.feldish @gmail.com"
+        contact.innerHTML = "alison.feldish@gmail.com"
+        contact.style.fontWeight = "400";
     }
     else {
         mail.style.display = "inline";
         mail.style.display = "none";
         contact.innerHTML = "here";
+        contact.style.fontWeight = "600";
     }
 }
 
