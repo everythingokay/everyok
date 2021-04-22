@@ -1,7 +1,7 @@
 * {}
 
 #wrapper {
-    display: flex;
+    /* display: flex; */
     width: 1200px;
     height: auto;
     overflow: auto;
@@ -25,9 +25,10 @@
 }
 
 #column1 {
-    display: flex;
+    /* display: flex; */
     width: 800px;
     height: auto;
+    float: left;
     border: 2px solid #ffffff;
     background-color: #ffffff;
 }
@@ -79,9 +80,10 @@
 }
 
 #column2 {
-    display: flex;
+    /* display: flex; */
     width: 30%;
     height: auto;
+    float: left;
     border: 2px solid #ffffff;
     background-color: #ffffff;
     margin: 65px auto auto 20px;
