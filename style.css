@@ -83,7 +83,7 @@
     /* display: flex; */
     width: 30%;
     height: auto;
-    float: left;
+    float: left; 
     border: 2px solid #ffffff;
     background-color: #ffffff;
     margin: 65px auto auto 20px;
@@ -224,7 +224,7 @@
 @media only screen and (max-width: 640px) {
     #wrapper {
         display: flex;
-        width: 1200px;
+        width: 100%;
         height: auto;
         overflow: auto;
         border: 2px solid #ffffff;
@@ -232,37 +232,34 @@
     }
 
     #title {
-        display: inline-block;
         font-family: Helvetica, sans-serif;
         font-weight: 600;
-        font-size: 65px;
+        font-size: 20px;
         letter-spacing: 6px;
         color: #000000;
         background-color: #cceeff;
-        margin-top: 25px;
-        margin-left: 20%;
+        margin-top: 10px;
     }
 
     #column1 {
         display: flex;
-        width: 800px;
+        width: 100%;
         height: auto;
         border: 2px solid #ffffff;
         background-color: #ffffff;
     }
 
     #box {
-        width: 80%;
-        float: left;
+        /* width: 80%;
+        float: left; */
         margin: auto 5px auto 5px;
     }
 
     #left {
         font-family: Helvetica, sans-serif;
         font-weight: 500;
-        font-size: 60px;
+        font-size: 20px;
         color: #000000;
-        float: left;
         margin: 210px auto auto 20px;
         display: inline-block; 
         filter: progid:DXImageTransform.Microsoft.BasicImage(mirror=1);
