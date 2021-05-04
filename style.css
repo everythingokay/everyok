@@ -224,21 +224,18 @@
 @media only screen and (max-width: 640px) {
     #wrapper {
         display: flex;
+        flex-direction: column;
         width: 100%;
         height: auto;
-        overflow: auto;
-        border: 2px solid #ffffff;
-    
     }
 
     #title {
         font-family: Helvetica, sans-serif;
         font-weight: 600;
         font-size: 20px;
-        letter-spacing: 6px;
+        letter-spacing: 3px;
         color: #000000;
         background-color: #cceeff;
-        margin-top: 10px;
     }
 
     #column1 {
@@ -250,18 +247,16 @@
     }
 
     #box {
-        /* width: 80%;
-        float: left; */
+        width: 80%;
         margin: auto 5px auto 5px;
     }
 
     #left {
         font-family: Helvetica, sans-serif;
         font-weight: 500;
-        font-size: 20px;
+        font-size: 40px;
         color: #000000;
         margin: 210px auto auto 20px;
-        display: inline-block; 
         filter: progid:DXImageTransform.Microsoft.BasicImage(mirror=1);
         -moz-transform: scale(-1,1);
         -ms-transform: scale(-1,1);
@@ -273,14 +268,14 @@
     #right {
         font-family: Helvetica, sans-serif;
         font-weight: 500;
-        font-size: 60px;
+        font-size: 40px;
         color: #000000;
         float: left;
         margin: 210px auto auto auto;
     }
 
     #column2 {
-        display: flex;
+        /* display: flex; */
         width: 30%;
         height: auto;
         border: 2px solid #ffffff;
