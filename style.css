@@ -218,7 +218,7 @@
     margin: auto auto auto 20px;    
 }
 
-@media only screen and (max-width: 640px) {
+@media screen and (max-width: 780px) {
     #wrapper {
         display: flex;
         flex-direction: column;
