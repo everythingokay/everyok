@@ -86,7 +86,7 @@ function email() {
     if (mail.style.display === "none" || mail.style.display === "") {
         mail.style.display = "inline";
         contact.innerHTML = "alison.feldish@gmail.com"
-        contact.style.fontWeight = "400";
+        contact.style.fontWeight = "500";
     }
     else {
         mail.style.display = "inline";
