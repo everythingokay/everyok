@@ -125,14 +125,6 @@
     background-color: #ffdfba;
   }
 
-#button {
-    font-family: Helvetica, sans-serif;
-    font-weight: 600;
-    font-size: 30px;
-    letter-spacing: 1px;
-    color: #000000;
-}
-
 #contact {
     font-family: Helvetica, sans-serif;
     font-weight: 600;
@@ -149,71 +141,6 @@
     display: none;
 }
 
-#fact {
-    width: 600px;
-    height: 400px;
-    border: 4px dashed #000000;
-    background-color: #ffffff;
-    font-family: Helvetica, sans-serif;
-    font-weight: 600;
-    font-size: 55px;
-    color: #000000;
-    z-index: 1;
-    position: absolute;
-    left: 45%;
-    top: 48%;
-    transform: translate(-50%, -50%);
-    padding-left: 25px;
-    padding-top: 25px;
-    display: none;
-}
-
-#factoid {
-    background-color: #ffdfba;
-    line-height: 1.2;
-}
-
-#hand {
-    display: inline-block;
-    height: 50%;
-    margin-top: -9%;
-    margin-left: 68%;
-}
-
-#leave {
-    font-family: Helvetica, sans-serif;
-    font-weight: 500;
-    font-size: 45px;
-    color: #000000;
-    position: absolute;
-    left: 92%;
-    top: 1%;
-}
-
-#close {
-    font-family: Helvetica, sans-serif;
-    font-weight: 500;
-    font-size: 45px;
-    color: #000000;
-    position: absolute;
-    left: 91%;
-    top: 1%;
-}
-
-/* #email {
-    font-family: Helvetica, sans-serif;
-    font-weight: 500;
-    font-size: 30px;
-    color: #000000;
-} */
-
-#form {
-    font-family: Helvetica, sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    color: #000000;
-    margin: auto auto auto 20px;    
-}
 
 @media screen and (max-width: 800px) {
     #wrapper {
@@ -232,10 +159,6 @@
         font-size: 45px;
         letter-spacing: 3px;
         color: #000000;
-        /* text-decoration: underline 5px;
-        text-decoration-style: dotted; */
-        /* -webkit-text-decoration-color:#cceeff; /* safari still uses vendor prefix */
-        /* text-decoration-color:#cceeff; */
     }
 
     #title:hover {
@@ -338,14 +261,6 @@
         background-color: #ffdfba;
     }
 
-    #button {
-        font-family: Helvetica, sans-serif;
-        font-weight: 600;
-        font-size: 20px;
-        letter-spacing: 1px;
-        color: #000000;
-    }
-
     #contact {
         font-family: Helvetica, sans-serif;
         font-weight: 600;
@@ -357,63 +272,5 @@
 
     #mail {
         display: none;
-    }
-
-    #fact {
-        width: 600px;
-        height: 400px;
-        border: 4px dashed #000000;
-        background-color: #ffffff;
-        font-family: Helvetica, sans-serif;
-        font-weight: 600;
-        font-size: 55px;
-        color: #000000;
-        z-index: 1;
-        position: absolute;
-        left: 45%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        padding-left: 25px;
-        display: none;
-    }
-
-    #factoid {
-        background-color: #ffdfba;
-        line-height: 1.2;
-    }
-
-    #hand {
-        display: inline-block;
-        height: 50%;
-        margin-top: -9%;
-        margin-left: 68%;
-    }
-
-    #leave {
-        font-family: Helvetica, sans-serif;
-        font-weight: 500;
-        font-size: 45px;
-        color: #000000;
-        position: absolute;
-        left: 91%;
-        top: 1%;
-    }
-
-    #close {
-        font-family: Helvetica, sans-serif;
-        font-weight: 500;
-        font-size: 45px;
-        color: #000000;
-        position: absolute;
-        left: 91%;
-        top: 1%;
-    }
-
-    #form {
-        font-family: Helvetica, sans-serif;
-        font-weight: 500;
-        font-size: 20px;
-        color: #000000;
-        margin: auto auto auto 20px;    
     }
 }
