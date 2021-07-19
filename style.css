@@ -1,4 +1,7 @@
-/* * {} */
+* {
+    font-family: Helvetica, sans-serif;
+    color: #000;
+}
 
 #wrapper {
     width: 1200px;
@@ -8,11 +11,10 @@
 
 #title {
     display: inline-block;
-    font-family: Helvetica, sans-serif;
     font-weight: 600;
     font-size: 65px;
     letter-spacing: 6px;
-    color: #000000;
+    color: #000;
     margin-top: 25px;
     margin-bottom: 60px;
     margin-left: 20%;
@@ -26,10 +28,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 800px;
+    width: 70%;
     height: auto;
     float: left;
-    background-color: #ffffff;
 }
 
 #box {
@@ -38,10 +39,8 @@
 }
 
 #left {
-    font-family: Helvetica, sans-serif;
     font-weight: 500;
     font-size: 60px;
-    color: #000000;
     filter: progid:DXImageTransform.Microsoft.BasicImage(mirror=1);
     -moz-transform: scale(-1,1);
     -ms-transform: scale(-1,1);
@@ -61,10 +60,8 @@
 }
 
 #right {
-    font-family: Helvetica, sans-serif;
     font-weight: 500;
     font-size: 60px;
-    color: #000000;
 }
 
 #right:hover {
@@ -76,27 +73,22 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 30%;
+    width: 29%;
     height: auto;
-    background-color: #ffffff;
 }
 
 #greeting {
     width: 100%;
-    font-family: Helvetica, sans-serif;
     font-weight: 500;
     font-size: 45px;
     letter-spacing: 2px;
-    color: #000000;
-    margin-bottom: 20px;
+    margin: 60px auto 20px auto;
 }
 
 #name {
-    font-family: Helvetica, sans-serif;
     font-weight: 600;
     font-size: 45px;
     letter-spacing: 2px;
-    color: #000000;
 }
 
 #name:hover{
@@ -105,20 +97,16 @@
 
 #bodycopy {
     width: 100%;
-    font-family: Helvetica, sans-serif;
     font-weight: 500;
     font-size: 30px;
     letter-spacing: 1px;
-    color: #000000;
 }
 
 #github {
-    font-family: Helvetica, sans-serif;
     font-weight: 600;
     font-size: 30px;
     letter-spacing: 1px;
     text-decoration: none;
-    color: #000000;
 }
 
 #github:hover {
@@ -126,11 +114,9 @@
   }
 
 #contact {
-    font-family: Helvetica, sans-serif;
     font-weight: 600;
     font-size: 30px;
     letter-spacing: 1px;
-    color: #000000;
 }
 
 #contact:hover {
@@ -153,16 +139,16 @@
 
     #title {
         width: 90%;
-        margin: 5px auto 10px auto;
+        margin: 5px auto auto auto;
         font-family: Helvetica, sans-serif;
         font-weight: 550;
-        font-size: 45px;
+        font-size: 40px;
         letter-spacing: 3px;
-        color: #000000;
+        margin-bottom: 40px;
     }
 
     #title:hover {
-        background-color: #fff;
+        background-color: transparent;
     }
 
     #column1 {
@@ -172,8 +158,6 @@
         justify-content: center;
         width: 90vw;
         height: auto;
-        border: 2px solid #ffffff;
-        background-color: #ffffff;
     }
 
     #box {
@@ -185,11 +169,8 @@
     }
 
     #left {
-        font-family: Helvetica, sans-serif;
         font-weight: 500;
         font-size: 40px;
-        color: #000000;
-        /* margin: 210px auto auto 20px; */
         filter: progid:DXImageTransform.Microsoft.BasicImage(mirror=1);
         -moz-transform: scale(-1,1);
         -ms-transform: scale(-1,1);
@@ -199,44 +180,36 @@
     }
 
     #left:hover {
-        background-color: #fff;
+        background-color: transparent;
     }
 
     #right {
-        font-family: Helvetica, sans-serif;
         font-weight: 500;
         font-size: 40px;
-        color: #000000;
     }
 
     #right:hover {
-        background-color: #fff;
+        background-color: transparent;
     }
 
     #column2 {
-        /* display: flex; */
+        display: flex;
         width: 90%;
         height: auto;
-        border: 2px solid #ffffff;
-        background-color: #ffffff;
-        margin: 65px auto auto auto;
+        margin: auto;
     }
 
     #greeting {
         width: 90%;
-        font-family: Helvetica, sans-serif;
         font-weight: 500;
-        font-size: 32px;
+        font-size: 28px;
         letter-spacing: 2px;
-        color: #000000;
     }
 
     #name {
-        font-family: Helvetica, sans-serif;
         font-weight: 600;
-        font-size: 32px;
+        font-size: 28px;
         letter-spacing: 2px;
-        color: #000000;
         background-color: #ffffba;
     }
 
@@ -244,29 +217,27 @@
         width: 90%;
         height: auto;
         margin: 5px;
-        font-family: Helvetica, sans-serif;
         font-weight: 500;
         font-size: 20px;
         letter-spacing: 1px;
-        color: #000000;
     }
 
     #github {
-        font-family: Helvetica, sans-serif;
         font-weight: 600;
         font-size: 20px;
         letter-spacing: 1px;
         text-decoration: none;
-        color: #000000;
-        background-color: #ffdfba;
+        background-color: #cceeff
+    }
+
+    #github:hover {
+        background-color: #cceeff
     }
 
     #contact {
-        font-family: Helvetica, sans-serif;
         font-weight: 600;
         font-size: 20px;
         letter-spacing: 1px;
-        color: #000000;
         background-color: #baffc9;
     }
 

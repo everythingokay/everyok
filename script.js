@@ -21,7 +21,6 @@ let box = document.getElementById('box');
 
 let index = 0;
 
-
 left.addEventListener("click", moveLeft)
 right.addEventListener("click", moveRight)
 
