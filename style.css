@@ -34,13 +34,10 @@
 
 #box {
     width: 80%;
-    /* float: left; */
     margin: auto 5px auto 5px;
 }
 
 #left {
-    /* float: left; */
-    /* margin: 210px auto auto 20px; */
     font-family: Helvetica, sans-serif;
     font-weight: 500;
     font-size: 60px;
@@ -64,8 +61,6 @@
 }
 
 #right {
-    /* float: left; */
-    /* margin: 210px auto auto auto; */
     font-family: Helvetica, sans-serif;
     font-weight: 500;
     font-size: 60px;
@@ -83,9 +78,7 @@
     justify-content: center;
     width: 30%;
     height: auto;
-    /* float: left; */
     background-color: #ffffff;
-    /* margin: 65px auto auto 20px; */
 }
 
 #greeting {
@@ -95,6 +88,7 @@
     font-size: 45px;
     letter-spacing: 2px;
     color: #000000;
+    margin-bottom: 20px;
 }
 
 #name {
@@ -238,7 +232,14 @@
         font-size: 45px;
         letter-spacing: 3px;
         color: #000000;
-        /* background-color: #cceeff; */
+        /* text-decoration: underline 5px;
+        text-decoration-style: dotted; */
+        /* -webkit-text-decoration-color:#cceeff; /* safari still uses vendor prefix */
+        /* text-decoration-color:#cceeff; */
+    }
+
+    #title:hover {
+        background-color: #fff;
     }
 
     #column1 {
@@ -274,13 +275,19 @@
         transform: scale(-1,1);
     }
 
+    #left:hover {
+        background-color: #fff;
+    }
+
     #right {
         font-family: Helvetica, sans-serif;
         font-weight: 500;
         font-size: 40px;
         color: #000000;
-        /* float: left; */
-        /* margin: 210px auto auto auto; */
+    }
+
+    #right:hover {
+        background-color: #fff;
     }
 
     #column2 {
