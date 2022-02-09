@@ -24,14 +24,14 @@
     background-color: #cceeff;
 }
 
-#column1 {
+/* #column1 {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 70%;
     height: auto;
     float: left;
-}
+} */
 
 #box {
     width: 80%;
