@@ -15,9 +15,9 @@ let images = [
     'images/slide12.jpg',
 ];
 
-let left = document.getElementById('left');
-let right = document.getElementById('right');
-let box = document.getElementById('box');
+let left = document.getElementById('left-arrow');
+let right = document.getElementById('right-arrow');
+let box = document.getElementById('image-box');
 
 let index = 0;
 
