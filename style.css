@@ -27,6 +27,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 470px;
+    width: auto;
 }
 
 #image-box {
@@ -79,14 +81,14 @@ width: 100%;
 #name {
     font-weight: 600;
     font-size: 45px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 #name:hover{
     background-color: #ffffba;
 }
 
-#bodycopy {
+.container-3 {
     width: 100%;
     font-weight: 500;
     font-size: 30px;
