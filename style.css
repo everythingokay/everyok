@@ -3,9 +3,9 @@
     color: #000;
 }
 
-#wrapper {
-    #display: flex;
-}
+/* .wrapper {
+    display: flex;
+} */
 
 .title {
     display: flex;
@@ -15,8 +15,7 @@
     font-size: 65px;
     letter-spacing: 6px;
     color: #000;
-    margin-top: 25px;
-    margin-bottom: 60px;
+    margin: 25px 10px 60px 10px;
 }
 
 .title:hover {
@@ -74,8 +73,8 @@ width: 100%;
 
 .container-4 {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
 }
 
 #greeting {
